@@ -1,0 +1,154 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+#h1{ 
+    color: white;
+    position: absolute;
+    bottom: 60%;
+    left: 40%;
+    font-size: 50px;
+
+}
+#img{
+    
+    width: 100%;
+    height: 50%;
+    display: block;
+    border-bottom:solid rgb(26, 114, 92) 10px;
+    object-fit:cover;
+}
+#img1{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(34, 126, 103);
+    border-radius: 50%;
+    object-fit: contain;
+    padding: 3px;
+    position: absolute;
+    bottom: 40%;
+    left: 45%;
+    box-shadow: 0px 1px 20px black;
+    transition: padding 0.1s ,margin 0.1s ,box-shadow 0.1s ;
+}
+#img1:hover{
+    padding:  8px;
+    margin: 1px;
+    box-shadow: 8px;
+}
+
+
+.container1{
+    color: white;
+    display: flex;
+    position: absolute;
+    bottom:88%;
+     left: 66%;
+     gap: 40px;
+    font-family: cursive;
+}
+.container1 h3:hover{
+    cursor: pointer;
+    background-color: rgb(200, 200,200,0.3);
+    border-radius: 7px;
+
+}
+#h4{
+    background-color:rgb(40,100,100) ;
+    position: relative;
+    padding: 3px;
+    border-radius: 7px;
+}
+#h4:hover{
+    background-color: rgb(200, 200,200,0.3);
+}
+
+#hk{
+    color: rgb(110 105 105);
+   
+    position: absolute;
+    left: 40%;
+    bottom: 20%;
+}
+.box{
+    
+    height: 9%;
+    width: 100%;
+    display: flex;
+    margin-top: 14%;
+    justify-content: center;
+    gap: 10%;
+}
+.box1{
+    background-color:rgb(207, 194, 194);
+    color: rgb(17, 119, 94);
+     width: 15%; 
+     font-size: 25px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+        
+}
+
+ .row{
+    background-color: rgb(207, 194, 194);
+    width: 100%;
+    height: 30%;
+    margin-top: 5%;
+    display: flex;
+}
+.img-group{
+      width: 50%;
+    height: 100%;
+    
+    margin-left: 50%;
+}
+#titel{
+    position: absolute;
+    left: 82%;   
+}
+.chldren-row{ 
+ width: 90%;
+ height: 40%;
+ margin-top: 7%;
+margin-left: 5%;
+ display: flex;
+ justify-content: center;
+ gap: 8%;
+}
+.box2{
+    
+    width: 50%;
+    height:100%;
+    border: 3px solid  black;
+    border-radius: 5px;
+}
+.text{
+    direction: rtl;
+       margin-right: 55%;
+    margin-top: -20%;
+    font-size: 19px;
+}
+.wtsh{
+    background-color: rgb(34, 126, 103);
+    color: white;
+    font-size: 20px;
+    width: 30%;
+    height: 30%;
+    margin-left: 10%;
+    margin-top: -2%;
+    text-align: center;
+    cursor: pointer; 
+}
+.end{ background-color: rgb(20, 61, 49);
+    color: white;
+    margin-top: 20%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
